@@ -72,11 +72,11 @@ export default function PizzaForm(props){
                             onChange = {onChange}
                         />
                     </label>
-                    <label> Chicken 
+                    <label> Chicken
                         <input
                             type = 'checkbox'
-                            name = 'onion'
-                            checked = {values.onion}
+                            name = 'chicken'
+                            checked = {values.chicken}
                             onChange = {onChange}
                         />
                     </label>
